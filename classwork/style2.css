@@ -1,0 +1,12 @@
+div{
+    border: solid 1px blue;
+    height: 500px;
+    width: 900px;
+    background-color: aqua;
+    margin: 20px auto;
+
+}
+.div1{
+    background-image: url(..../poto.jpeg);
+
+}
