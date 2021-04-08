@@ -1,0 +1,97 @@
+h1{
+    text-align: center;
+}
+div{
+    background-color: gray;
+    border: solid 2px black;
+    height: 500px;
+    width: 1050px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    position: relative;
+
+
+}
+.bimg1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+.bimg2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.bimg3{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+.bimg4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+.simg1{
+    position: absolute;
+    top: 50px;
+    left: 250px;
+
+}
+.simg2{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+
+}
+.simg3{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+
+}
+.simg4{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+
+}  
+
+.simg1_1{
+    position: absolute;
+    top: 50px;
+    left: 650px;
+
+} 
+
+.simg2_1{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+
+} 
+
+.simg3_1{
+    position: absolute;
+    top: 150px;
+    left: 550px;
+
+} 
+
+
+
+.simg4_1{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+
+} 
+
+
+

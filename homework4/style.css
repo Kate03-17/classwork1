@@ -1,0 +1,22 @@
+
+body{
+    text-align: center;
+}
+table{
+    border: solid 2px;
+    width: 30%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    border: solid 2px black;
+    width: 15px;
+}
+.td1{
+    background-color: #84fdd2;
+}
+.td2{
+    background-color: #e0b789;
+}
+

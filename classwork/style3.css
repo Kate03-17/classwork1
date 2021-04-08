@@ -1,0 +1,27 @@
+div{
+    height: 200px;
+    width: 300px;
+    border: solid 4px violet;
+    font-size: 30px;
+
+
+}
+.d1{
+    background-color: yellow;
+    top: 100px;
+    /* bottom: 200px; */
+    left: 40px;
+    /* right: 100px;  */
+    position: absolute;
+
+}
+.d2{
+    background-color: teal;
+    width: 500px;
+
+}
+.d3{
+    background-color: tomato;
+    width: 700px;
+
+}

@@ -1,0 +1,28 @@
+div{
+    height: 100px;
+    width: 100px;
+}
+.d1{
+    background-color: red;
+    left: 50px;
+    top: 50px;
+    position: absolute;
+}
+.d2{
+    background-color: green;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+}
+.d3{
+    background-color: blue;
+    left: 150px;
+    top: 150px;
+    position: absolute;
+}
+.d4{
+    background-color: yellow;
+    left: 200px;
+    top: 200px;
+    position: absolute;
+}
