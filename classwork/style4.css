@@ -1,0 +1,28 @@
+form{
+    width: 700px;
+    min-height: 350px;
+    padding: 20px;
+    border: solid black 3px;
+    margin: auto;
+}
+.bttn{
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+}
+.bttn:hover{
+    background-color: blue;
+    border-radius: 50%;
+}
+.input1{
+    padding: 8px;
+    border: none;
+    border-bottom: solid 3px silver;
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.input1:focus{
+    outline: none;
+    border-bottom: solid 3px blue;
+}

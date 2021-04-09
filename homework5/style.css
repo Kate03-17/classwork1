@@ -1,0 +1,25 @@
+form{
+    height: 400px;
+    width: 400px;
+    border: solid 1px black;
+    margin: auto;
+    background-color: #e8eced;
+    text-align: center;
+    
+}
+h1{
+    color: #34495e;
+}
+input{
+    padding: 10px;
+    width: 180px;
+}
+button{
+    background-color: #e74c3c;
+    padding: 10px;
+    width: 200px;
+    color: white;
+}
+p{
+    font-size: 70%;
+}

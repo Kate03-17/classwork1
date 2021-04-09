@@ -1,0 +1,55 @@
+button{
+    background-color: #76cf76;
+    color: white;
+    height: 50px;
+    width: 250px;
+    border: none;
+    font-size: 130%;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: teal;
+    cursor: pointer;
+}
+form{
+    background-color: #effcef;
+    height: 600px;
+    border: solid 1px #76cf76;
+}
+main{
+    border-bottom: solid 1px #cfe9c6;
+    height: 80%;
+}
+footer{
+    text-align: center;
+    
+}
+.txt{
+    width: 500px;
+    height: 30px;
+    font-size: 120%;
+}
+.inp{
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    float: left;
+    
+}
+textarea{
+    width: 500px;
+    height: 150px;
+    font-size: 150%;
+}
+.dots{
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+}
+p{
+    font-weight: bold;
+    font-size: 120%;
+}
+label{
+    color: #76cf76;
+}
