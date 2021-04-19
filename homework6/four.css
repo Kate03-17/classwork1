@@ -1,0 +1,40 @@
+main{
+    
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.container1, .container2, .container3, .container4, .container5, .container6{
+    
+    height: 16%;
+    display: flex;
+    box-sizing: border-box;
+    
+}
+.container1 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container2 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container3 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container4 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container5 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container6 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,38 @@
+main{
+    
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+    
+    
+}
+.container1, .container2, .container3, .container4, .container5, .container6{
+    display: flex;
+    height: 16%;
+}
+
+.container1 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container2 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container3 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container4 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container5 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container6 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}

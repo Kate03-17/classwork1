@@ -1,0 +1,44 @@
+footer, .div1, main, header{
+    border: solid 2px violet;
+    width: 80%;
+    margin: auto;
+}
+header{
+    height: 80px;
+    
+}
+.div1{
+    height: 80px;
+    
+}
+
+
+
+footer{
+    height: 80px;
+}
+main{
+    min-height: 400px;
+}
+.div1, footer{
+    background-color: #d7e1fa;
+} 
+body{
+    background-color: #ecded4;
+    text-align: center;
+    font-size: 150%;
+}
+nav{
+    width: 20%;
+    background-color: darkgray;
+    float: left;
+}
+
+.content{
+    width: 80%;
+    min-height: 400px;
+    background-color: #f7f5ee;
+    float: left;
+    text-align: center;
+}
+

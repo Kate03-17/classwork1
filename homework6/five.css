@@ -1,0 +1,62 @@
+main{
+    border: solid 1px black;
+    width: 80%;
+    height: 400px;
+}
+.container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9, .container10, .container11, .container12{
+    float: left;   
+    width: 8%;
+    
+    
+}
+.container1 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+    
+}
+.container2 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container3 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container4 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container5 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container6 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container7 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container8 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container9 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container10 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container11 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+.container12 div{
+    margin: 3px;
+    background-color: cornflowerblue;
+}
+
+    

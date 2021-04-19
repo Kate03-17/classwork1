@@ -1,0 +1,36 @@
+header{
+    height: 10%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+div{
+    margin: auto;
+    margin-top: 30px;
+    height: 550px;
+    width: 500px;
+    border: solid 1px black;
+    background-color: white;
+    border-radius: 5%;
+}
+input{
+    padding: 10px;
+    background-color: lightsteelblue;
+    border: none;
+}
+
+p{
+    margin: 15px;
+}
+.button{
+    background-color: red;
+    color: white;
+}
+body{
+    background-color: violet;
+}
+.long{
+    width: 70%;
+}
+

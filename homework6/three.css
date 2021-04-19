@@ -1,0 +1,49 @@
+main{
+    border: solid 4px black;
+    width: 80%;
+    height: 500px;
+    overflow: hidden;
+    
+}
+.container1, .container2, .container3, .container4, .container5{
+   
+    height: 20%;
+    display: flex;
+    box-sizing: border-box;
+    
+}
+.container1{
+    justify-content: flex-start;
+}
+.container2{
+    justify-content: flex-end;
+}
+.container3{
+    justify-content: center;
+}
+.container4{
+    justify-content: space-between;
+}
+.container5{
+    justify-content: space-around;
+}
+.container1 div{
+    border: solid 2px black;
+    width: 100px;
+}
+.container2 div{
+    border: solid 2px black;
+    width: 100px;
+}
+.container3 div{
+    border: solid 2px black;
+    width: 100px;
+}
+.container4 div{
+    border: solid 2px black;
+    width: 100px;
+}
+.container5 div{
+    border: solid 2px black;
+    width: 100px;
+}

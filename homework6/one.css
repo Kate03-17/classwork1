@@ -1,0 +1,48 @@
+body{
+    color: white;
+    font-size: 150%;
+}
+main{
+    height: 500px;
+    width: 800px;
+    border: solid 3px gray;
+    margin: auto;
+}
+header, footer{
+    height: 20%;
+    background-color: rgb(108, 108, 184);
+    
+}
+.content{
+    height: 60%;
+}
+.container{
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    /* border: solid 1px blue; */
+
+}
+.first, .second{
+    display: flex;
+}
+.first{
+    height: 60%;
+}
+.second{
+    height: 40%;
+}
+.main-content{
+    background-color: yellowgreen;
+
+}
+.sidebar{
+    background-color: violet;
+}
+.twin{
+    background-color: tomato;
+
+}
+div{
+    margin: 2px;
+}
