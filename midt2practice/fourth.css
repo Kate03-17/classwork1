@@ -1,0 +1,22 @@
+.container{
+    height: 600px;
+    width: 70%;
+    margin: auto;
+    box-sizing: border-box;
+    border: solid 2px black;
+}
+header, main, footer{
+    height: 33.3%;
+    display: flex;
+}
+
+.container div{
+    width: 20%;
+    border: solid black 1px;
+}
+header, footer{
+    justify-content: space-between;
+}
+main{
+    justify-content: center;
+}
