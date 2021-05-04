@@ -1,0 +1,20 @@
+.container, .container1{
+    width: 70%;
+    border: solid 10px gray;
+    height: 200px;
+    background-color: lightpink;
+}
+
+@media (min-width:600px){
+    .container{
+        height: 500px;
+        border-radius: 50%;
+    }
+
+}
+@media (max-width: 700px){
+    .container1{
+        background-color: aquamarine;
+        border: dotted 20px red;
+    }
+}

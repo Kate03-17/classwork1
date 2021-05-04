@@ -1,0 +1,58 @@
+.container{
+    
+    border: solid 2px black;
+    height: 500px;
+    width: 1050px;
+    margin: auto;
+    position: relative;
+
+
+}
+.div1, .div2, .div3, .div4, .div5{
+    border: solid 1px black;
+}
+.div1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 150px;
+    width: 150px;
+    background-color: red;
+
+}
+.div2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+
+}
+.div3{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 150px;
+    width: 150px;
+    background-color: green;
+
+}
+.div4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+
+}
+.div5{
+    position: absolute;
+    left: 450px;
+    top: 30%;
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+    
+}

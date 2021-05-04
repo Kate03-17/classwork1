@@ -1,0 +1,12 @@
+h1{
+    border: solid 5px red;
+    height: 100px;
+    width: 60%;
+    background-color: orange;
+    color: red;
+    text-align: center;
+    margin: auto;
+    font-size: 300%;
+    border-radius: 0px 80px;
+    text-shadow: 2px 1px white;
+}

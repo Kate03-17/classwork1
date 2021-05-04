@@ -1,0 +1,23 @@
+main{
+    width: 70%;
+    height: 450px;
+    border: solid 3px black;
+    margin: auto;
+    text-align: center;
+    
+}
+.container{
+    height: 20%;
+    display: flex;
+}
+.container div{
+    background-color: #c0c0c0;
+    margin: 20px;
+    border-bottom: solid 1px blue;
+    
+}
+.container div a{
+    font-size: 150%;
+    text-decoration: none;
+    color: black;
+}

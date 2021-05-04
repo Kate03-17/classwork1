@@ -1,0 +1,49 @@
+
+body{
+    background-color: #9dbd2d;
+}
+form{
+    margin: auto;
+    margin-top: 30px;
+    height: 400px;
+    width: 40%;
+    overflow: hidden;
+}
+main{
+    height: 80%;
+}
+.container,.container2, .container3, .container4{
+    height: 20%;
+    display: flex;
+    border: solid 2px #d5e2a7;
+    background-color: #b9cf6a;
+    justify-content: space-around;
+    margin: 5px;
+    border-radius: 5px;
+    align-items: center;
+}
+.container div{
+    margin: 20px;
+    
+}
+.container2 div{
+    margin: 20px;
+    
+}
+.container3 div{
+    margin: 20px;
+    
+}
+.container4 div{
+    margin: 20px;
+    
+}
+.container5 div{
+    margin: 20px;
+    
+}
+.inp{
+    height: 30px;
+    width: 80%;
+}
+
