@@ -1,0 +1,9 @@
+.deftable{
+    height: 500px;
+    width: 70%;
+    margin: auto;
+}
+
+td{
+    border: solid 2px red;
+}
