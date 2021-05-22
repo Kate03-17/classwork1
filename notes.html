@@ -1,0 +1,178 @@
+<head>
+    <meta http-equiv="refresh" content="2; page">
+    <!-- refresh, if you add page link after interval it will move to that link after refresh -->
+    <style>
+        body{
+            background-image: url("image");
+            /* background image */
+            border-radius: 50%;
+            /* oval border */
+            margin: 20px auto;
+            /* 20px from every side and each other
+            auto for being in center */
+        }
+        img{
+            background-repeat: no repeat;
+            /* photo won't repeat regardless of size */
+            background-repeat: repeat-x;
+            /* repeat horizontally only */
+            background-repeat: repeat-y;
+            /* repeat vertically only */
+            background-position: bottom;
+            /* moves it to bottom of the background */
+            background-size: cover;
+            /*photo covers the whole background*/
+            background-size: 50% 50%;
+            /*photo covers 50% of background width and 50% height*/
+            background-attachment: fixed;
+            /* follows the page untill you pass that container/bachground */
+        }
+        p{
+            padding: 10px;
+            /* 10px on all sides within the element */
+            /*Padding creates extra space within an element, while margin creates extra space around an element! */
+            position: static;
+            /* default, can't use top, left, etc */
+            position: absolute;
+            /* can move around from the borders of the page*/
+            position: relative;
+            /* can move around from where it was initially */
+            /* if containter with position absolute is inside the
+            container with position relative you can move it in acordance to outer container(as if it's the page itself)*/
+            position: fixed;
+            /* same as background attachment: fixed but for the whole page */
+            position: sticky;
+            top: 50px;
+            /* stays in place after reaching 50px from top */
+
+        }
+        form{
+            min-height: 200px;
+            /* if there's more content it has no effect but if there's less content it's applied */
+            
+
+        }
+        button{
+            cursor: pointer;
+            /* cursor style when over button */
+        }
+        button:hover{
+       
+        }
+        /* works when cursor hovers over button */
+        input:focus{
+            outline: none;
+            /* different from border */
+        }
+        /* works when you click on input */
+        div{
+            float: left;
+        }
+        nav{
+            float: left;
+        }
+        /* makes them align orderly side by side on the left */
+        nav ul{
+            list-style: none;
+            /* removes dots or numbers */
+        }
+        nav ul li{
+            border-bottom: solid 3px aqua;
+            display: block;
+            /* to have borders come down properly on a separate line
+            block Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width */
+            
+        }
+        section{
+            overflow: hidden;
+            /* hides the part of the div that doesn't fit in this container */
+        }
+        .one{
+            height: 100px;
+            width: 33.3%;
+            /* since we have 3 divs */
+            box-sizing: border-box;
+            /* to fir all 3 divs on one line */
+        }
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li></li>
+            </ul>
+        </nav>
+        <!-- navigation -->
+    </header>
+    <main></main>
+    <footer></footer>
+    <!-- just containers such as div -->
+    <br> 
+    <!-- break -->
+    <hr>
+    <!-- line -->
+    <a href="somelink" target="_blank"></a>
+    <!-- link, blank means starting the new link in new tab -->
+
+    <img src="image">
+    <!-- image -->
+    <table>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="3"></td>
+            
+            <!-- table data, colspan joins the specific number of cols -->
+            <!-- rowspan joins specific number of rows -->
+        </tr>
+        <tr>
+            
+            <td colspan="3"></td>
+        </tr>
+        <!-- table row -->
+        <form action="">
+            <input class="input1" type="text" placeholder="Name">
+            <input type="password" placeholder="Password">
+
+            <input name="rad" type="radio">
+            <input name="rad" type="radio">
+            <!-- from radios with the same name only one can be selected. you can't unselect a radio -->
+
+            <input type="checkbox">
+            <input id="something" type="checkbox">
+
+            <label for="something">something</label>
+            <!-- creates a label for some element -->
+
+            <button class="bttn">Send data</button>
+            <input type="submit" value="This is submit button">
+            <!-- generally the same -->
+
+            <input type="file" accept="image/*">
+            <!-- can upload file, accept images only show you images initially when you click the upload files button but cannot restrict you -->
+
+            <input type="hidden" value="something">
+            <!-- hidden input -->
+
+            <input type="range">
+
+
+
+        </form>
+
+        <p>dnwjenwidweiu<span>gerfer</span>gerr</p>
+        <!-- span is for styling single word or fragment of a sentence -->
+
+    </table>
+    <div>
+        <section>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+        </section>
+    </div>
+
+    
+</body>

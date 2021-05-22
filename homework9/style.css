@@ -1,4 +1,4 @@
-.deftable{
+/* .deftable{
     height: 500px;
     width: 70%;
     margin: auto;
@@ -6,4 +6,24 @@
 
 td{
     border: solid 2px red;
+} */
+
+/* N31 */
+form{
+    width: 60%;
+    height: 500px;
+    margin: 20px auto;
+    border: solid 1px black;
+    background-color: #f0f8ff;
+}
+p{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+input{
+    width: 15%;
+}
+select{
+    width: 25%;
 }

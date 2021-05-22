@@ -1,0 +1,90 @@
+.container{
+    border: solid 2px black;
+    margin: 10px auto;
+    padding: 5px;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+header, footer{
+    height: 10%;
+    flex: 100%;
+}
+footer{
+    background-color: yellow;
+}
+aside, main{
+    height: 70%;
+}
+aside{
+    flex: 2;
+    background-color: wheat;
+}
+main{
+    flex: 5;
+    display: flex;
+}
+header, footer, main, aside{
+    margin: 5px;
+    /* border: solid 1px green; */
+    padding: 5px;
+}
+header{
+    display: flex;
+}
+header div{
+    margin: 5px;
+}
+.content{
+    flex: 4
+}
+.aside{
+    flex: 1;
+    margin-left: 5px;
+    
+}
+.aside div{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2px;
+
+}
+.aside div .twin{
+    height: 33.3%;
+    background-color: red;
+}
+.aside .bonus{
+    height: 25%;
+    background-color: pink;
+}
+.content .blue{
+    height: 55%;
+    background-color: blue;
+    
+}
+.clone1, .clone2{
+    height: 20%;
+    background-color: white;
+    margin-top: 5px;
+    display: flex;
+    
+}
+.clone1{
+    justify-content: space-between;
+
+}
+.clone1 div{
+    width: 25%;
+    background-color: pink;
+}
+.clone2 div{
+    width: 25%;
+    margin-left: 25%;
+    background-color: pink;
+    
+    
+}

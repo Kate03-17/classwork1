@@ -1,0 +1,63 @@
+footer, .nav1, main, header{
+    border: solid 2px black;
+    width: 80%;
+    margin: auto;
+}
+header{
+    height: 100px;
+    
+}
+.nav1{
+    height: 30px;
+    overflow: hidden;
+}
+.nav1 a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: underline;
+    font-size: 17px;
+    border-right: solid 1px;
+}
+.nav1 a:hover{
+    background-color: #333;
+    color: white;
+}
+
+footer{
+    height: 20px;
+}
+main{
+    min-height: 400px;
+    
+}
+ 
+
+nav{
+    width: 20%;
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+nav ul li{
+    padding: 8px;
+    border-bottom: solid 3px black;
+    display: block;
+
+}
+.content{
+    width: 80%;
+    min-height: 400px;
+    
+    float: left;
+}
+button{
+    width: 150px;
+    padding: 10px;
+}
+
